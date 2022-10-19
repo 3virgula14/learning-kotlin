@@ -3,7 +3,7 @@ class Dog{
 }
 
 fun main(){
-    val pestinha:Dog = Dog()
+    var pestinha:Dog = Dog()
     pestinha.name = "Pestinha"
     println("Ola ${pestinha.name}")
 }
